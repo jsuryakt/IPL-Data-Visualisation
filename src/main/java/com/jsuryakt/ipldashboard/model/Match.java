@@ -241,4 +241,15 @@ public class Match {
     public void setReserveDate(String reserveDate) {
         this.reserveDate = reserveDate;
     }
+
+    @Override
+    public String toString() {
+        return "Match{" +
+                "matchId=" + matchId +
+                ", date=" + date +
+                ", team1='" + team1 + '\'' +
+                ", team2='" + team2 + '\'' +
+                ", winner='" + winner + '\'' +
+                '}';
+    }
 }
